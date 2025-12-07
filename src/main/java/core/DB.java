@@ -14,7 +14,7 @@ import java.sql.*;
  * @author Gokhan
  */
 public class DB {
-    private static final String DB_URL = "jdbc:derby:hotdogstanddb;create=true;user=hotdogstanddb;password=hotdogstanddb";
+    private static final String DB_URL = "jdbc:derby:shoestoredb;create=true;user=shoestoredb;password=shoestoredb";
     private static final String MIGRATION_DIR = "db.migrations";
     private static DB instance = null;
     private final Connection mConnection;

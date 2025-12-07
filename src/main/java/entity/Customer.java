@@ -29,6 +29,10 @@ public class Customer
         this.firstName = firstName;
     }
 
+    public Customer() {
+
+    }
+
     public int getID() {
         return ID;
     }
@@ -48,5 +52,17 @@ public class Customer
     @Override
     public String toString() {
         return "Customer{" + "ID=" + ID + ", firstName=" + firstName + ", lastName=" + lastName + ", favoriteMeal=" + favoriteMeal + '}';
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setFavoriteMeal(String favoriteMeal) {
+        this.favoriteMeal = favoriteMeal;
     }
 }
