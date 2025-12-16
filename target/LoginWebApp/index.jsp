@@ -201,7 +201,7 @@
                 <p>Browse sneaker catalog and place orders with quantity discounts</p>
             </a>
 
-            <a href="<%= request.getContextPath() %>/shoes.jsp" class="nav-card shoe-card">
+            <a <a href="<%= request.getContextPath() %>/shoes.jsp" class="nav-card shoe-card">
                 <h3>Shoe Orders</h3>
                 <p>Place custom shoe orders and calculate prices</p>
             </a>
